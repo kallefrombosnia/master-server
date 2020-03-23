@@ -1,0 +1,33 @@
+div.col-md-12.push-top
+    if (error)
+        include ../events/error.pug
+    else
+        form(method="POST")
+            .form-group.row
+                label.col-sm-2.col-form-label(for='nameSrw') Name
+                .col-sm-10
+                    input#nameSrw.form-control(type='text', placeholder='Name of the server', name="nameSrw", value=name)
+            .form-group.row
+                label.col-sm-2.col-form-label(for='ipSrw') IP Address
+                .col-sm-10
+                    input#ipSrw.form-control(type='text', placeholder='Address of the server', name="ipSrw", value=ip)
+            .form-group.row
+                label.col-sm-2.col-form-label(for='infoSrw') Info
+                .col-sm-10
+                    input#infoSrw.form-control(type='text', placeholder='Info about the server', name="infoSrw", value=info)
+            .form-group.row
+                label.col-sm-2.col-form-label(for='serverOwner') Owner
+                input(type='hidden', name='ownerId', value=owner_id)
+                .col-sm-10
+                    select.chosen.serverId(style='width:200px;', class='selector')
+                        each user in userList
+                            if owner_id != user._id
+                                option(value=_id)= user.username
+                            else
+                                option(selected='selected', value=_id)= user.username
+                                
+            .form-group.row
+                .col-sm-10
+                    button.btn.btn-primary(type='submit') Save
+                    
+

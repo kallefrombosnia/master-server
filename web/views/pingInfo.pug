@@ -1,0 +1,15 @@
+extends layout
+
+
+block ping_info
+
+    div.col-md-12.push-top 
+        if (error)
+                include ./events/error.pug
+        else 
+        h2 Checking ping for #{ip}
+        span Note: ping is measured from webserver, not from your device. 5 seconds interval.
+
+        ul.list-group.ping.push-top
+            li.list-group-item.d-flex.justify-content-between.align-items-center
+                | Wait...          

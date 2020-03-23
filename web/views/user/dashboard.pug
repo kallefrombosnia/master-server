@@ -1,0 +1,38 @@
+extends layout
+
+block dashboard
+    div.col-md-12
+        h2.push-top Hello, #{userInfo.username}
+
+        if !serversNumber 
+
+            h4.push-top You dont have any server added. 
+                a(href='server/add') Add server 
+
+                
+                        
+
+        else
+
+            table.table.table-bordered
+                thead.head-default
+                    tr
+                        th(scope='col') Name
+                        th(scope='col') Address
+                        th(scope='col') Info
+                        th(scope='col') Actions
+                tbody
+                    - var i = 0
+                    each server in servers
+                        - i++
+                        tr
+                            td 
+                                a(href='user/' + server._id) #{server.name}
+                            td #{server.ip}
+                            td #{server.info}
+                            td 
+                                a(href='/server/edit/'+ server._id)
+                                    button.btn.btn-primary.button-relation.btn-sm Edit
+                                        i.fas.fa-bolt.icon
+            
+                    

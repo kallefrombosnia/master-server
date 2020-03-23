@@ -1,0 +1,42 @@
+extends layout
+
+
+block edit_user
+    div.col-md-12.push-top
+        if (error)
+            include ./events/error.pug
+    
+        form(method="POST")
+            .form-group.row
+                label.col-sm-2.col-form-label(for='name') Name
+                .col-sm-10
+                    input#name.form-control(type='text', placeholder='Name', name="name", value=name)
+            .form-group.row
+                label.col-sm-2.col-form-label(for='info') Info
+                .col-sm-10
+                    input#info.form-control(type='text', placeholder='Info', name="info", value=info)
+            .form-group.row
+                label.col-sm-2.col-form-label(for='email') E-mail
+                .col-sm-10
+                    input#email.form-control(type='email', placeholder='Email', name="email", value=email)
+            .form-group.row
+                label.col-sm-2.col-form-label(for='password') Password
+                .col-sm-10
+                    input#password.form-control(type='password', name='password', placeholder='Current password')
+            .form-group.row
+                label.col-sm-2.col-form-label(for='passwordNew') Password new
+                .col-sm-10
+                    input#passwordNew.form-control(type='password', name='passwordNew', placeholder='New password')
+            .form-group.row
+                label.col-sm-2.col-form-label(for='userRank') Rank
+                input(type='hidden', name='authLevel', value=auth_level)
+                .col-sm-10
+                    select.chosen(style='width:200px;', class='selector')
+                        each auth in authLevels
+                            if auth_level != auth
+                                option= auth
+                            else
+                                option(selected='selected')= auth
+            .form-group.row
+                .col-sm-10
+                    button.btn.btn-primary(type='submit') Save

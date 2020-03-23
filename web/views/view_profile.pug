@@ -1,0 +1,51 @@
+extends layout
+
+block view_profile
+    .col-md-12
+        .card.push-top
+            if (error)        
+                .card-header Profile 
+                .card-body
+                    include ./events/error.pug
+            else
+                .card-header Profile - #{userInfo.username}
+                    div.float-right
+                        a(href='/user/edit/'+ userInfo._id)
+                            button.btn.btn-primary.button-relation.btn-sm Edit
+                                i.fas.fa-bolt.icon
+                .card-body
+                    p Name: #{userInfo.name}
+                    p Email: #{userInfo.email}
+                    p Info: #{userInfo.info}
+
+        .card.push-top
+            .card-header Owned game servers
+            .card-body
+
+                if !serversNumber 
+
+                    h4 This user does not have any server added.
+
+                else
+
+                    table.table.table-bordered
+                        thead.head-default
+                            tr
+                                th(scope='col') Name
+                                th(scope='col') Address
+                                th(scope='col') Info
+                                th(scope='col') Actions
+                        tbody
+                            - var i = 0
+                            each server in servers
+                                - i++
+                                tr
+                                    td 
+                                        a(href='user/' + server._id) #{server.name}
+                                    td #{server.ip}
+                                    td #{server.info}
+                                    td 
+                                        a(href='/server/edit/'+ server._id)
+                                            button.btn.btn-primary.button-relation.btn-sm Edit
+                                                i.fas.fa-bolt.icon
+        

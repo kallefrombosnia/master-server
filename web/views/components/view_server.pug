@@ -1,0 +1,82 @@
+.modal-content.push-top
+    if (error)
+        .modal-header
+            h5.modal-title= 'Server overview'
+            div.float-right
+                form.float-right(method='POST', action='/delete')
+                    input(type="hidden", name='id', value=id)
+                    button.btn.btn-danger.button-relation.btn-sm(type='submit' value="stop") Delete
+                        i.fas.fa-power-off.icon
+        include ../events/error.pug
+    else
+
+        .modal-header
+            h5.modal-title= gameInfo.name
+            div.float-right 
+            
+                a(href='/boost/'+id)
+                    button.btn.btn-primary.button-relation.btn-sm Boost
+                        i.fas.fa-bolt.icon
+                        
+                form.float-right(method='POST', action='/delete')
+                    input(type="hidden", name='id', value=id)
+                    button.btn.btn-danger.button-relation.btn-sm(type='submit' value="stop") Delete
+                        i.fas.fa-power-off.icon
+                
+                
+        .modal-body
+            div.row
+                    div.col-md-10
+                        dl.row
+                            if (error === true)
+                                dt.col-sm-3 Error spotted:
+                                dd.col-sm-9 Error: #{errorMessage}.
+                                    i.fas.fa-exclamation-triangle
+                            else
+                                
+                                dt.col-sm-3 Map:
+                                dd.col-sm-9= gameInfo.map
+
+                                dt.col-sm-3 Password:
+                                dd.col-sm-9= gameInfo.password
+
+                                dt.col-sm-3 Players:
+                                dd.col-sm-9= gameInfo.raw.numplayers + '/'  + gameInfo.maxplayers
+
+                                dt.col-sm-3 VAC:
+
+                                case gameInfo.raw.secure
+                                    when 0
+                                        dd.col-sm-9 Disabled
+
+                                    when 1
+                                        dd.col-sm-9 Enabled
+
+                                dt.col-sm-3 Ping:
+                                dd.col-sm-9= gameInfo.ping
+                                
+                                
+                    div.col-md-2
+                        img(src='https://image.gametracker.com/images/maps/160x120/cs/'+ gameInfo.map+ '.jpg')
+
+                    div.col-md-8.push-top
+                        table.table.table-bordered
+                            thead.head-default
+                                tr
+                                    th(scope='col') Name
+                                    th(scope='col') Score
+                                    th(scope='col') Online time
+                            tbody
+                                each player in players
+                                    tr
+                                        td #{player.name}
+                                        td #{player.frags}
+                                        td #{player.timePlaying}       
+                                    
+                            
+
+
+
+            
+
+        

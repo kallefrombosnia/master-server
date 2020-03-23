@@ -1,0 +1,58 @@
+extends layout 
+
+block master
+    .modal-content.push-top
+        .modal-header
+            h5.modal-title Master server
+            div.float-right 
+                if(!started && !running)
+                    form(method="POST")
+                        input(type='hidden', name='start')
+                        button.btn.btn-success.button-relation.btn-md(type='submit', value="start") Start Master
+                            i.fas.fa-server.icon
+                else if (started && running)
+                    form.float-left(method="POST")
+                        input(type='hidden', name='restart')
+                        button.btn.btn-warning.button-relation.btn-sm(type='submit' value="restart") Restart
+                            i.fas.fa-redo-alt.icon
+                    form.float-right(method="POST")
+                        input(type='hidden', name='stop').d-none
+                        button.btn.btn-danger.button-relation.btn-sm(type='submit' value="stop") Stop
+                            i.fas.fa-power-off.icon
+                else
+                    h6 Application error, restart app.
+                
+        .modal-body
+            dl.row
+                if (error === true)
+                    dt.col-sm-3 Error spotted:
+                    dd.col-sm-9 Error: #{errorMessage}.
+                        i.fas.fa-exclamation-triangle
+                else
+
+                    if (started === true)
+                        dt.col-sm-3 Master started:
+                        dd.col-sm-9 True. Master started.
+                            i.fas.fa-check
+
+                    if (started === true && running === true )
+                        dt.col-sm-3 Master running:
+                        dd.col-sm-9 True. Master running. 
+                            i.fas.fa-check
+
+                    if (started === false  )
+                        dt.col-sm-3 Master running:
+                        dd.col-sm-9 False. Master is not started. Press Start Master button.
+        
+    .modal-content.push-top
+        .modal-header
+            h5.modal-title Live events
+        .modal-body
+            span Note: events will be shown live as they happen
+
+            ul.list-group.master-events.push-top
+                li.list-group-item.d-flex.justify-content-between.align-items-center
+                    | No data available
+
+                    
+        

@@ -1,0 +1,32 @@
+extends layout
+
+block profiles
+
+    div.col-md-12
+        i.ae.flag
+        h2.push-top Current users list: 
+            span.count #{count}
+            
+
+    div.col-md-12(style='padding-top: 15px')
+        table.table.table-bordered
+            thead.head-default
+                tr
+                    th(scope='col') Username
+                    th(scope='col') Email
+                    th(scope='col') Info
+                    th(scope='col') Actions
+            tbody
+                - var i = 0
+                each user in users
+                    - i++
+                    tr
+                        td 
+                            a(href='user/' + user._id) #{user.username}
+                        td #{user.email}
+                        td #{user.info}
+                        td 
+                            a(href='/user/edit/'+ user._id)
+                                button.btn.btn-primary.button-relation.btn-sm Edit
+                                    i.fas.fa-bolt.icon
+                

@@ -1,0 +1,21 @@
+extends layout
+
+block view_profile
+    .col-md-12
+        .card.push-top
+            if (error)        
+                .card-header Profile 
+                .card-body
+                    include ../events/error.pug
+            else
+                .card-header Profile - #{userInfo.username}
+                    div.float-right
+                        a(href='/user/edit/'+ userInfo._id)
+                            button.btn.btn-primary.button-relation.btn-sm Edit
+                                i.fas.fa-bolt.icon
+                .card-body
+                    p Name: #{userInfo.name}
+                    p Email: #{userInfo.email}
+                    p Info: #{userInfo.info}
+
+        

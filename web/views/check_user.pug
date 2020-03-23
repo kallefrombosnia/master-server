@@ -1,0 +1,12 @@
+extends layout 
+
+block check_user
+    div.col-md-6.push-top
+        form(method="POST" )
+            .form-group.row
+                label.col-sm-2.col-form-label(for='ip') IP Address
+                .col-sm-10
+                    input#ip.form-control(type='text', placeholder='Address of the user', name="ip")
+            .form-group.row
+                .col-sm-10
+                    button.btn.btn-primary(type='submit') Check

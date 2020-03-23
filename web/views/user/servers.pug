@@ -1,0 +1,41 @@
+extends layout
+
+block servers
+    div.col-md-12
+        if (okMessage)
+            include ../events/success.pug
+
+        i.ae.flag
+        h2.push-top Current server list: 
+            span.count #{count}
+            div.float-right
+                a(href='/server/add')
+                    button.btn.btn-success.button-relation.btn-md Add server
+                        i.fas.fa-plus-square.icon
+                        
+
+    div.col-md-12.push-top
+        table.table.table-bordered
+            thead.head-default
+                tr
+                    th(scope='col') Name
+                    th(scope='col') IP
+                    th(scope='col') Info
+                    th(scope='col') Actions
+            tbody
+                - var i = 0
+                each server in serverlist
+                    - i++
+                    tr
+                        td 
+                            a(href='server/' + server._id) #{server.name}
+                        td #{server.ip}
+                        td #{server.info}
+                        td 
+                            a(href='/server/edit/'+ server._id)
+                                button.btn.btn-primary.button-relation.btn-sm Edit
+                                    i.fas.fa-bolt.icon
+                    if i >= 4 && limit
+                        td(colspan = '3')
+                            a(href='/servers') See all servers
+                        - break

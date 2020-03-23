@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    title Register
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css')
+    link(rel='stylesheet' href='/assets/css/main.css')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css')
+    meta(http-equiv='expires' content='0')
+  body
+    main.register-form.push-top
+    .container
+        .row.justify-content-center
+            .col-md-8
+                .card
+                    .card-header Register
+                    .card-body
+                        if (error)
+                            include ./events/error.pug
+                        form(action='/register', method='POST')
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='username') Username
+                                .col-md-6
+                                    input#username.form-control(type='text', name='username', required, autofocus)
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='name') Name
+                                .col-md-6
+                                    input#name.form-control(type='text', name='name', required)
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='email') E-Mail Address
+                                .col-md-6
+                                    input#email.form-control(type='email', name='email', required)
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='password') Password
+                                .col-md-6
+                                    input#password.form-control(type='password', name='password', required)
+                            .form-group.row
+                                label.col-md-4.col-form-label.text-md-right(for='info') Info
+                                .col-md-6
+                                    input#info.form-control(type='text', name='info')
+                           
+                            .col-md-6.offset-md-4.push-top
+                                button.btn.btn-primary(type='submit')
+                                    | Register
+                                a.btn.btn-link.float-right(href='/login')
+                                    | Login
+
+
+
+      
+    script(src='https://code.jquery.com/jquery-3.4.1.js')  
+    script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js') 
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js')

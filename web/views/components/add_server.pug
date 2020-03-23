@@ -1,0 +1,18 @@
+div.col-md-12.push-top
+    form(method="POST" )
+        .form-group.row
+            label.col-sm-2.col-form-label(for='nameSrw') Name
+            .col-sm-10
+                input#nameSrw.form-control(type='text', placeholder='Name of the server', name="nameSrw")
+        .form-group.row
+            label.col-sm-2.col-form-label(for='ipSrw') IP Address
+            .col-sm-10
+                input#ipSrw.form-control(type='text', placeholder='Address of the server', name="ipSrw")
+        .form-group.row
+            label.col-sm-2.col-form-label(for='infoSrw') Info
+            .col-sm-10
+                input#infoSrw.form-control(type='text', placeholder='Info about the server', name="infoSrw")
+        .form-group.row
+            .col-sm-10
+                button.btn.btn-primary(type='submit') Save
+
