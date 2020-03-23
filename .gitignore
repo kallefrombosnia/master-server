@@ -1,3 +1,4 @@
 node_modules
 .vscode/
 data/
+log/mongodb.log
