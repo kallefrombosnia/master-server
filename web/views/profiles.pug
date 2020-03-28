@@ -15,6 +15,7 @@ block profiles
                     th(scope='col') Username
                     th(scope='col') Email
                     th(scope='col') Info
+                    th(scope='col') Auth
                     th(scope='col') Actions
             tbody
                 - var i = 0
@@ -25,6 +26,7 @@ block profiles
                             a(href='user/' + user._id) #{user.username}
                         td #{user.email}
                         td #{user.info}
+                        td #{user.auth_level}
                         td 
                             a(href='/user/edit/'+ user._id)
                                 button.btn.btn-primary.button-relation.btn-sm Edit

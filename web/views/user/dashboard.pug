@@ -4,17 +4,26 @@ block dashboard
     div.col-md-12
         h2.push-top Hello, #{userInfo.username}
 
+        
+        .card.push-top
+
+            .card-header 
+                h4 Notice!  
+                    i.fas.fa-exclamation-triangle
+            .card-body
+                p Website is still in beta status, with all services working but without warranty.
+                p We own right to reset, change, update, add or delete any part of service.
+                p All status will be reseted by going to production.
+                p Thanks for patiance.
+
         if !serversNumber 
 
-            h4.push-top You dont have any server added. 
+            h5.push-top You dont have any server added. 
                 a(href='server/add') Add server 
-
-                
-                        
 
         else
 
-            table.table.table-bordered
+            table.table.table-bordered.push-top
                 thead.head-default
                     tr
                         th(scope='col') Name

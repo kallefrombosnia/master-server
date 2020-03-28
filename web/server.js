@@ -85,6 +85,9 @@ app.use(require('../routes/admin/userRouter'), sessionCheck);
 // Use user dashboard
 app.use(require('../routes/user/userDashboardRouter'), sessionCheck);
 
+// Use user server router
+app.use(require('../routes/user/userServerRouter'), sessionCheck);
+
 // Start app and listen on web port
 app.listen(process.env.PORT, () =>{
     console.log('Web server started on port 3000...');

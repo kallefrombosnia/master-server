@@ -5867,3 +5867,145 @@
 2020-03-23T22:42:26.421+0100 I  NETWORK  [conn247] received client metadata from 127.0.0.1:59879 conn247: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
 2020-03-23T22:42:26.499+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:59881 #248 (2 connections now open)
 2020-03-23T22:42:26.500+0100 I  NETWORK  [conn248] received client metadata from 127.0.0.1:59881 conn248: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-23T23:27:58.963+0100 I  NETWORK  [conn247] end connection 127.0.0.1:59879 (1 connection now open)
+2020-03-23T23:27:58.963+0100 I  NETWORK  [conn248] end connection 127.0.0.1:59881 (0 connections now open)
+2020-03-24T18:56:26.672+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:61466 #249 (1 connection now open)
+2020-03-24T18:56:26.692+0100 I  NETWORK  [conn249] received client metadata from 127.0.0.1:61466 conn249: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-24T18:56:26.756+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:61467 #250 (2 connections now open)
+2020-03-24T18:56:26.758+0100 I  NETWORK  [conn250] received client metadata from 127.0.0.1:61467 conn250: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-24T20:02:27.226+0100 I  NETWORK  [conn249] end connection 127.0.0.1:61466 (1 connection now open)
+2020-03-24T20:02:27.227+0100 I  NETWORK  [conn250] end connection 127.0.0.1:61467 (0 connections now open)
+2020-03-25T18:53:09.723+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:56419 #251 (1 connection now open)
+2020-03-25T18:53:09.784+0100 I  NETWORK  [conn251] received client metadata from 127.0.0.1:56419 conn251: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-25T18:53:10.062+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:56420 #252 (2 connections now open)
+2020-03-25T18:53:10.074+0100 I  NETWORK  [conn252] received client metadata from 127.0.0.1:56420 conn252: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-25T19:31:30.331+0100 I  NETWORK  [conn252] end connection 127.0.0.1:56420 (1 connection now open)
+2020-03-25T19:31:30.331+0100 I  NETWORK  [conn251] end connection 127.0.0.1:56419 (0 connections now open)
+2020-03-25T20:48:55.039+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:57197 #253 (1 connection now open)
+2020-03-25T20:48:55.061+0100 I  NETWORK  [conn253] received client metadata from 127.0.0.1:57197 conn253: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-25T20:48:55.124+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:57198 #254 (2 connections now open)
+2020-03-25T20:48:55.126+0100 I  NETWORK  [conn254] received client metadata from 127.0.0.1:57198 conn254: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-25T23:37:54.270+0100 I  NETWORK  [conn253] end connection 127.0.0.1:57197 (1 connection now open)
+2020-03-25T23:37:54.276+0100 I  NETWORK  [conn254] end connection 127.0.0.1:57198 (0 connections now open)
+2020-03-25T23:37:54.973+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:57251 #255 (1 connection now open)
+2020-03-25T23:37:55.027+0100 I  NETWORK  [conn255] received client metadata from 127.0.0.1:57251 conn255: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-25T23:40:01.316+0100 I  NETWORK  [conn255] end connection 127.0.0.1:57251 (0 connections now open)
+2020-03-26T17:58:13.142+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58300 #256 (1 connection now open)
+2020-03-26T17:58:13.167+0100 I  NETWORK  [conn256] received client metadata from 127.0.0.1:58300 conn256: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T17:58:13.227+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58302 #257 (2 connections now open)
+2020-03-26T17:58:13.244+0100 I  NETWORK  [conn257] received client metadata from 127.0.0.1:58302 conn257: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:02:15.996+0100 I  NETWORK  [conn256] end connection 127.0.0.1:58300 (1 connection now open)
+2020-03-26T18:02:15.996+0100 I  NETWORK  [conn257] end connection 127.0.0.1:58302 (0 connections now open)
+2020-03-26T18:02:19.617+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58363 #258 (1 connection now open)
+2020-03-26T18:02:19.688+0100 I  NETWORK  [conn258] received client metadata from 127.0.0.1:58363 conn258: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:02:19.800+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58365 #259 (2 connections now open)
+2020-03-26T18:02:19.815+0100 I  NETWORK  [conn259] received client metadata from 127.0.0.1:58365 conn259: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:40:11.096+0100 I  NETWORK  [conn258] end connection 127.0.0.1:58363 (1 connection now open)
+2020-03-26T18:40:11.096+0100 I  NETWORK  [conn259] end connection 127.0.0.1:58365 (0 connections now open)
+2020-03-26T18:40:14.249+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58691 #260 (1 connection now open)
+2020-03-26T18:40:14.429+0100 I  NETWORK  [conn260] received client metadata from 127.0.0.1:58691 conn260: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:40:14.677+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58694 #261 (2 connections now open)
+2020-03-26T18:40:14.695+0100 I  NETWORK  [conn261] received client metadata from 127.0.0.1:58694 conn261: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:41:21.793+0100 I  NETWORK  [conn260] end connection 127.0.0.1:58691 (1 connection now open)
+2020-03-26T18:41:21.794+0100 I  NETWORK  [conn261] end connection 127.0.0.1:58694 (0 connections now open)
+2020-03-26T18:41:25.572+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58719 #262 (1 connection now open)
+2020-03-26T18:41:25.633+0100 I  NETWORK  [conn262] received client metadata from 127.0.0.1:58719 conn262: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:41:25.737+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58722 #263 (2 connections now open)
+2020-03-26T18:41:25.747+0100 I  NETWORK  [conn263] received client metadata from 127.0.0.1:58722 conn263: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:42:00.153+0100 I  NETWORK  [conn262] end connection 127.0.0.1:58719 (1 connection now open)
+2020-03-26T18:42:00.153+0100 I  NETWORK  [conn263] end connection 127.0.0.1:58722 (0 connections now open)
+2020-03-26T18:42:03.889+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58744 #264 (1 connection now open)
+2020-03-26T18:42:03.964+0100 I  NETWORK  [conn264] received client metadata from 127.0.0.1:58744 conn264: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:42:04.070+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58747 #265 (2 connections now open)
+2020-03-26T18:42:04.097+0100 I  NETWORK  [conn265] received client metadata from 127.0.0.1:58747 conn265: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:42:45.116+0100 I  NETWORK  [conn264] end connection 127.0.0.1:58744 (1 connection now open)
+2020-03-26T18:42:45.118+0100 I  NETWORK  [conn265] end connection 127.0.0.1:58747 (0 connections now open)
+2020-03-26T18:42:48.474+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58765 #266 (1 connection now open)
+2020-03-26T18:42:48.565+0100 I  NETWORK  [conn266] received client metadata from 127.0.0.1:58765 conn266: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:42:48.780+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58768 #267 (2 connections now open)
+2020-03-26T18:42:48.788+0100 I  NETWORK  [conn267] received client metadata from 127.0.0.1:58768 conn267: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:43:24.178+0100 I  NETWORK  [conn266] end connection 127.0.0.1:58765 (1 connection now open)
+2020-03-26T18:43:24.179+0100 I  NETWORK  [conn267] end connection 127.0.0.1:58768 (0 connections now open)
+2020-03-26T18:43:27.671+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58786 #268 (1 connection now open)
+2020-03-26T18:43:27.785+0100 I  NETWORK  [conn268] received client metadata from 127.0.0.1:58786 conn268: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:43:27.919+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58790 #269 (2 connections now open)
+2020-03-26T18:43:27.920+0100 I  NETWORK  [conn269] received client metadata from 127.0.0.1:58790 conn269: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:43:58.569+0100 I  NETWORK  [conn268] end connection 127.0.0.1:58786 (1 connection now open)
+2020-03-26T18:43:58.569+0100 I  NETWORK  [conn269] end connection 127.0.0.1:58790 (0 connections now open)
+2020-03-26T18:44:02.119+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58805 #270 (1 connection now open)
+2020-03-26T18:44:02.186+0100 I  NETWORK  [conn270] received client metadata from 127.0.0.1:58805 conn270: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:44:02.289+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58808 #271 (2 connections now open)
+2020-03-26T18:44:02.290+0100 I  NETWORK  [conn271] received client metadata from 127.0.0.1:58808 conn271: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:44:06.904+0100 I  NETWORK  [conn270] end connection 127.0.0.1:58805 (1 connection now open)
+2020-03-26T18:44:06.904+0100 I  NETWORK  [conn271] end connection 127.0.0.1:58808 (0 connections now open)
+2020-03-26T18:44:09.652+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58822 #272 (1 connection now open)
+2020-03-26T18:44:09.700+0100 I  NETWORK  [conn272] received client metadata from 127.0.0.1:58822 conn272: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T18:44:09.828+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:58825 #273 (2 connections now open)
+2020-03-26T18:44:09.843+0100 I  NETWORK  [conn273] received client metadata from 127.0.0.1:58825 conn273: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T20:29:39.421+0100 I  NETWORK  [conn273] end connection 127.0.0.1:58825 (1 connection now open)
+2020-03-26T20:29:39.426+0100 I  NETWORK  [conn272] end connection 127.0.0.1:58822 (0 connections now open)
+2020-03-26T20:29:39.926+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:59201 #274 (1 connection now open)
+2020-03-26T20:29:39.954+0100 I  NETWORK  [conn274] received client metadata from 127.0.0.1:59201 conn274: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T21:49:23.155+0100 I  NETWORK  [conn274] end connection 127.0.0.1:59201 (0 connections now open)
+2020-03-26T21:49:25.916+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:59814 #275 (1 connection now open)
+2020-03-26T21:49:25.923+0100 I  NETWORK  [conn275] received client metadata from 127.0.0.1:59814 conn275: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T21:49:25.960+0100 I  NETWORK  [listener] connection accepted from 127.0.0.1:59815 #276 (2 connections now open)
+2020-03-26T21:49:25.961+0100 I  NETWORK  [conn276] received client metadata from 127.0.0.1:59815 conn276: { driver: { name: "nodejs|Mongoose", version: "3.4.1|5.8.11" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.18362" }, platform: "'Node.js v10.16.0, LE (unified)" }
+2020-03-26T21:49:28.161+0100 I  NETWORK  [conn275] end connection 127.0.0.1:59814 (1 connection now open)
+2020-03-26T21:49:28.161+0100 I  NETWORK  [conn276] end connection 127.0.0.1:59815 (0 connections now open)
+2020-03-28T00:26:55.365+0100 I  CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2020-03-28T00:26:55.383+0100 I  NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2020-03-28T00:26:55.384+0100 I  -        [serviceShutdown] Stopping further Flow Control ticket acquisitions.
+2020-03-28T00:26:55.385+0100 I  CONTROL  [serviceShutdown] Shutting down free monitoring
+2020-03-28T00:26:55.385+0100 I  FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2020-03-28T00:26:55.397+0100 I  STORAGE  [serviceShutdown] Deregistering all the collections
+2020-03-28T00:26:55.402+0100 I  STORAGE  [serviceShutdown] Timestamp monitor shutting down
+2020-03-28T00:26:55.402+0100 I  STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2020-03-28T00:26:55.402+0100 I  STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2020-03-28T00:26:55.403+0100 I  STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2020-03-28T00:26:55.403+0100 I  STORAGE  [serviceShutdown] Shutting down journal flusher thread
+2020-03-28T00:26:55.487+0100 I  STORAGE  [serviceShutdown] Finished shutting down journal flusher thread
+2020-03-28T00:26:55.487+0100 I  STORAGE  [serviceShutdown] Shutting down checkpoint thread
+2020-03-28T00:26:55.488+0100 I  STORAGE  [serviceShutdown] Finished shutting down checkpoint thread
+2020-03-28T00:26:55.527+0100 I  STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2020-03-28T00:26:55.528+0100 I  CONTROL  [serviceShutdown] now exiting
+2020-03-28T00:27:21.858+0100 I  CONTROL  [main] ***** SERVER RESTARTED *****
+2020-03-28T00:27:28.943+0100 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2020-03-28T00:27:29.208+0100 I  CONTROL  [main] Trying to start Windows service 'MongoDB'
+2020-03-28T00:27:30.843+0100 I  CONTROL  [initandlisten] MongoDB starting : pid=4468 port=27017 dbpath=C:\Users\820\Desktop\code\nodejs\HL-MasterServer\data\db 64-bit host=DESKTOP-PLIP6QT
+2020-03-28T00:27:30.843+0100 I  CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2020-03-28T00:27:30.844+0100 I  CONTROL  [initandlisten] db version v4.2.2
+2020-03-28T00:27:30.844+0100 I  CONTROL  [initandlisten] git version: a0bbbff6ada159e19298d37946ac8dc4b497eadf
+2020-03-28T00:27:30.844+0100 I  CONTROL  [initandlisten] allocator: tcmalloc
+2020-03-28T00:27:30.844+0100 I  CONTROL  [initandlisten] modules: none
+2020-03-28T00:27:30.844+0100 I  CONTROL  [initandlisten] build environment:
+2020-03-28T00:27:30.845+0100 I  CONTROL  [initandlisten]     distmod: 2012plus
+2020-03-28T00:27:30.845+0100 I  CONTROL  [initandlisten]     distarch: x86_64
+2020-03-28T00:27:30.845+0100 I  CONTROL  [initandlisten]     target_arch: x86_64
+2020-03-28T00:27:30.845+0100 I  CONTROL  [initandlisten] options: { net: { bindIp: "localhost" }, service: true, storage: { dbPath: "C:\Users\820\Desktop\code\nodejs\HL-MasterServer\data\db", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\820\Desktop\code\nodejs\HL-MasterServer\log\mongodb.log" } }
+2020-03-28T00:27:31.200+0100 I  STORAGE  [initandlisten] Detected data files in C:\Users\820\Desktop\code\nodejs\HL-MasterServer\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2020-03-28T00:27:31.201+0100 I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3521M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+2020-03-28T00:27:31.480+0100 I  STORAGE  [initandlisten] WiredTiger message [1585351651:480323][4468:140729355624016], txn-recover: Recovering log 10 through 11
+2020-03-28T00:27:32.762+0100 I  STORAGE  [initandlisten] WiredTiger message [1585351652:762327][4468:140729355624016], txn-recover: Recovering log 11 through 11
+2020-03-28T00:27:34.031+0100 I  STORAGE  [initandlisten] WiredTiger message [1585351654:31324][4468:140729355624016], txn-recover: Main recovery loop: starting at 10/569728 to 11/256
+2020-03-28T00:27:35.772+0100 I  STORAGE  [initandlisten] WiredTiger message [1585351655:772327][4468:140729355624016], txn-recover: Recovering log 10 through 11
+2020-03-28T00:27:37.067+0100 I  STORAGE  [initandlisten] WiredTiger message [1585351657:67323][4468:140729355624016], txn-recover: Recovering log 11 through 11
+2020-03-28T00:27:37.925+0100 I  STORAGE  [initandlisten] WiredTiger message [1585351657:925324][4468:140729355624016], txn-recover: Set global recovery timestamp: (0,0)
+2020-03-28T00:27:38.141+0100 I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-03-28T00:27:38.315+0100 I  STORAGE  [initandlisten] Timestamp monitor starting
+2020-03-28T00:27:38.385+0100 I  CONTROL  [initandlisten] 
+2020-03-28T00:27:38.385+0100 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-03-28T00:27:38.385+0100 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-03-28T00:27:38.387+0100 I  CONTROL  [initandlisten] 
+2020-03-28T00:27:38.534+0100 I  SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2020-03-28T00:27:38.554+0100 I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+2020-03-28T00:27:38.559+0100 I  SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2020-03-28T00:27:38.560+0100 I  SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2020-03-28T00:27:38.629+0100 I  SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2020-03-28T00:27:42.030+0100 I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/820/Desktop/code/nodejs/HL-MasterServer/data/db/diagnostic.data'
+2020-03-28T00:27:43.001+0100 I  SHARDING [LogicalSessionCacheRefresh] Marking collection config.system.sessions as collection version: <unsharded>
+2020-03-28T00:27:43.120+0100 I  NETWORK  [initandlisten] Listening on 127.0.0.1
+2020-03-28T00:27:43.121+0100 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2020-03-28T00:27:43.122+0100 I  SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2020-03-28T00:27:43.221+0100 I  NETWORK  [initandlisten] waiting for connections on port 27017
+2020-03-28T00:27:43.222+0100 I  STORAGE  [initandlisten] Service running
